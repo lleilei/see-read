@@ -1,0 +1,46 @@
+ul, li ,a{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.booklist li {
+     padding: 5px 0;
+}
+.firstlist {
+	width: 24%;
+	float: left;
+	background: #9A7492;
+	height: 450px;
+}
+.firstlist ul li a {
+	font-size: 18px;
+	font-family: "微软雅黑";
+	color: white!important;
+}
+.firstlist ul li{
+	line-height: 40px;
+	text-align: center;
+}
+.secondlist{
+	width: 37%;
+	float: left;
+}
+.secondlist ul li img {
+	width: 50px;
+	height: 70px;
+}
+.secondlist .ui-grid-a {
+	text-align: center;
+	padding: 8px 0;
+	line-height: 30px;
+}
+.secondlist .ui-grid-a .ui-block-b .atitle {
+	font-size: 17px;
+	font-weight: bold;
+}
+.secondlist .ui-grid-a .ui-block-b .btitle{
+	font-size: 13px;
+
+}
+

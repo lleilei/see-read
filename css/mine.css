@@ -1,0 +1,101 @@
+ul, li ,a{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.mine {
+	height: 270px;
+	background: #B0924C;
+}
+.mine .ui-block-a {
+	width: 60%;
+}
+.mine .ui-block-b {
+	width: 30%;
+	padding: 40px;
+}
+.mine .ui-block-a ul {
+	float: left;
+	padding: 15px;
+	color: white;
+}
+.mine .ui-block-a ul li p {
+	font-size: 25px;
+}
+.mine .ui-block-b img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    margin: 0 auto;
+}
+.other ul li {
+	float: left;
+	margin-left: 30px;
+	text-align: center;
+	color: white;
+}
+.other ul li .p {
+	font-size: 30px;
+}
+.line {
+	font-size: 25px;
+	padding: 10px;
+}
+.line ul li {
+	display: block;
+	border-bottom: 2px dotted #7FB081;
+	padding: 10px 0px;
+}
+.line ul li img {
+	width: 90px;
+	height: 140px;
+}
+.line ul li span {
+	font-size: 15px;
+}
+.ui-block-a, .ui-block-b, .ui-block-c {
+	padding: 5px 0px;
+}
+.more {
+	padding: 10px;
+}
+.more .title {
+	font-size: 25px;
+}
+.more ul li {
+	padding: 8px;
+}
+.thing {
+	padding: 0 8px;
+}
+.thing img {
+	width: 90px;
+	height: 130px;
+}
+.thing ul li {
+	line-height: 15px;
+	padding: 0 8px 0 0;
+}
+.none img {
+	width: 90px;
+	height: 130px;
+}
+.none {
+	float: left;
+	padding: 0 8px;
+}
+.none .aline {
+	font-size: 20px;
+	text-align: center;
+	padding: 15px;
+	border-bottom: 1px solid black;
+}
+.free img {
+	width: 90px;
+	height: 130px;
+}
+.free ul li {
+	line-height: 15px;
+	padding: 0 8px;
+}

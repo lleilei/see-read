@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- meta使用viewport以确保页面可自由缩放 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- 引入 jQuery Mobile 样式 -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+<!-- 引入 jQuery 库 -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- 引入 jQuery Mobile 库 -->
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/mine.css">
+<link rel="stylesheet" type="text/css" href="css/home.css">
+<link rel="stylesheet" type="text/css" href="css/shelf.css">
+</head>
+<body>
+<!-- 	我的 -->
+	<section id="mine" data-role="page">
+		<header data-role="header" data-theme="b">
+			<h1>个人中心</h1>
+		</header><!-- /header -->
+		<article data-role="content" style="padding: 0;">
+			<div class="mine">
+				<div class="ui-grid-a">
+					<div class="ui-block-a">
+						<ul>
+							<li><p>哈哈哈哈</p></li>
+							<li><img src="img/female.png">Lv2</li>
+							<li>编辑个人资料</li>
+							<li>阅读36小时48分钟</li>
+						</ul>
+					</div>
+					<div class="ui-block-b">
+						<img src="img/pic.jpg">
+					</div>
+				</div>
+				<div class="other">
+					<ul>
+						<li>
+							<span class="p">0人</span>
+							<br/>
+						
+							<span>我关注的</span>
+						</li>
+						<li>
+							<span class="p">0人</span>
+							<br/>
+							
+							<span>关注我的</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</article><!-- /content -->
+		<article data-role="content" style="padding: 0;">
+			<div class="line">
+				<ul>
+					<li>我的等级</li>
+					<li>我的阅读故事</li>
+					<li>
+					我的书架
+					<div class="ui-grid-b">
+						<div class="ui-block-a">
+							<img src="img/chenghong.jpg">
+							<br/>
+							<span>龙族Ⅴ：奥丁之渊</span>
+						</div>
+						<div class="ui-block-b">
+							<img src="img/chenghong.jpg">
+							<br/>
+							<span>龙族Ⅴ：奥丁之渊</span>
+						</div>
+						<div class="ui-block-c">
+							<img src="img/chenghong.jpg">
+							<br/>
+							<span>龙族Ⅴ：奥丁之渊</span>
+						</div>
+					</div>
+				    </li>
+				    <li>我提问的</li>
+				    <li>我听过的</li>
+				</ul>
+			</div>
+			<div class="more">
+				<span class="title">互动记录</span>
+				<ul>
+					<li>
+						<span>2019-01-02</span>
+						<br/>
+						<img src="img/图片.png">
+						<span>给《龙族Ⅴ：奥丁之渊》投了2张推荐票</span>
+					</li>
+					<li>
+						<span>2018-12-31</span>
+						<br/>
+						<img src="img/图片.png">
+						<span>给《龙族Ⅴ：奥丁之渊》投了2张推荐票</span>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<footer data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+			        <ul>
+				        <li><a href="#bookshelf" data-role="button"><img src="img/书架.png" /><br/><span>书架</span></a>
+				        </li>
+				        <li><a href="#home"><img src="img/精选.png" /><br/><span>精选</span></a></li>
+				        <li><a href="#library"><img src="img/书库.png" /><br/><span>书库</span></a></li>
+				        <li><a href="#mine"><img src="img/mine.png" /><br/><span>我的</span></a></li>
+			        </ul>
+			    </div>
+			</footer>
+	</section><!-- /page -->
+
+<!-- 书架 -->
+	<section id="bookshelf" data-role="page">
+		<header data-role="header">
+			<h1>我的书架</h1>
+		<article data-role="content" style="padding: 0;">
+			<div class="call" >
+				<ul>
+					<li><span>0</span></li>
+					<li>本周阅读时长/分钟</li>
+					<li>点击签到</li>
+				</ul>
+			</div>
+		</article><!-- /content -->
+		<article data-role="content">
+			<div class="list">
+				<ul>
+					<li>
+						<div class="ui-grid-a">
+							<div class="ui-block-a" style="width: 30%;">
+								<img src="img/chenghong.jpg">
+							</div>
+							<div class="ui-block-b" style="width: 70%;">
+								<h1>龙族Ⅴ：悼亡者的归来</h1>
+								<span>江南</span>
+								<br/>
+
+								<p>两天前加入</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ui-grid-a">
+							<div class="ui-block-a" style="width: 30%;">
+								<img src="img/chenghong.jpg">
+							</div>
+							<div class="ui-block-b" style="width: 70%;">
+								<h1>龙族Ⅴ：悼亡者的归来</h1>
+								<span>江南</span>
+								<br/>
+								
+								<p>两天前加入</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ui-grid-a">
+							<div class="ui-block-a" style="width: 30%;">
+								<img src="img/chenghong.jpg">
+							</div>
+							<div class="ui-block-b" style="width: 70%;">
+								<h1>龙族Ⅴ：悼亡者的归来</h1>
+								<span>江南</span>
+								<br/>
+								
+								<p>两天前加入</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ui-grid-a">
+							<div class="ui-block-a" style="width: 30%;">
+								<img src="img/chenghong.jpg">
+							</div>
+							<div class="ui-block-b" style="width: 70%;">
+								<h1>龙族Ⅴ：悼亡者的归来</h1>
+								<span>江南</span>
+								<br/>
+								
+								<p>两天前加入</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ui-grid-a">
+							<div class="ui-block-a" style="width: 30%;">
+								<img src="img/chenghong.jpg">
+							</div>
+							<div class="ui-block-b" style="width: 70%;">
+								<h1>龙族Ⅴ：悼亡者的归来</h1>
+								<span>江南</span>
+								<br/>
+								
+								<p>两天前加入</p>
+							</div>
+						</div>
+					</li>
+					<li>
+						<div class="ui-grid-a">
+							<div class="ui-block-a" style="width: 30%;">
+								<img src="img/chenghong.jpg">
+							</div>
+							<div class="ui-block-b" style="width: 70%;">
+								<h1>龙族Ⅴ：悼亡者的归来</h1>
+								<span>江南</span>
+								<br/>
+								
+								<p>两天前加入</p>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</article>
+		<footer data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+			        <ul>
+				        <li><a href="#bookshelf"><img src="img/书架.png" /><br/><span>书架</span></a>
+				        </li>
+				        <li><a href="#home"><img src="img/精选.png" /><br/><span>精选</span></a></li>
+				        <li><a href="#library"><img src="img/书库.png" /><br/><span>书库</span></a></li>
+				        <li><a href="#mine"><img src="img/mine.png" /><br/><span>我的</span></a></li>
+			        </ul>
+			    </div>
+			</footer>
+	</section><!-- /page -->
+
+<!-- 精选 -->
+	<div data-role="page" id="home">
+			<header data-role="header" data-theme="b">
+				<input type="text" data-type="search" name="search" id="search" value="" placeholder="搜索内容">
+			</header>
+			<article data-role="content">
+				<div data-role="navbar" class="ui-navbar">
+					<ul class="ui-grid-c" style="text-align: center;">
+						<div class="ui-block-a" >
+							<img src="img/排行.png">
+							<p>排行</p>
+						</div>
+						<div class="ui-block-b">
+							<img src="img/免费.png">
+							<p>免费</p>
+						</div>
+						<div class="ui-block-c">
+							<img src="img/书单.png">
+							<p>书单</p>
+						</div>
+						<div class="ui-block-d">
+							<img src="img/书.png">
+							<p>完本</p>
+						</div>
+					</ul>
+				</div>
+			</article>
+
+			<article data-role="content" style="padding: 0;">
+				
+                <div class="thing">
+                	<h1>今日精选</h1>
+                	<div class="ui-grid-a">
+							<div class="ui-block-a" style="width: 30%;">
+								<img src="img/chenghong.jpg">
+							</div>
+							<div class="ui-block-b" style="width: 70%;">
+								<ul>
+									<li><h1>一起走过的日子</h1></li>
+									<li>如何面对 曾一起走过的日子，现在剩下我独行如何用心声一一讲你知，从来没人明</li>
+                                    <br/>
+                                    <li>作者：高善照</li>
+								</ul>
+							</div>
+						</div>
+                </div>
+                <div class="none">
+                	<div class="ui-grid-b">
+						<div class="ui-block-a">
+							<img src="img/chenghong.jpg">
+							<br/>
+							<span>龙族Ⅴ：奥丁之渊</span>
+						</div>
+						<div class="ui-block-b">
+							<img src="img/chenghong.jpg">
+							<br/>
+							<span>龙族Ⅴ：奥丁之渊</span>
+						</div>
+						<div class="ui-block-c">
+							<img src="img/chenghong.jpg">
+							<br/>
+							<span>龙族Ⅴ：奥丁之渊</span>
+						</div>
+					</div>
+					<div class="aline">查看更多</div>
+                </div>
+			</article>
+			<article data-role="content" style="padding: 0;">
+				<div class="free">
+					<h1>今日限免</h1>
+						<ul>
+							<li>
+								<div class="ui-grid-a">
+							<div class="ui-block-a" style="width: 30%;">
+								<img src="img/chenghong.jpg">
+							</div>
+							<div class="ui-block-b" style="width: 70%;">
+								<ul>
+									<li><h1>一起走过的日子</h1></li>
+									<li>如何面对 曾一起走过的日子，现在剩下我独行如何用心声一一讲你知，从来没人明</li>
+                                    <br/>
+                                    <li>作者：高善照</li>
+								</ul>
+							</div>
+						</div>
+							</li>
+							<li>
+								<div class="ui-grid-a">
+							<div class="ui-block-a" style="width: 30%;">
+								<img src="img/chenghong.jpg">
+							</div>
+							<div class="ui-block-b" style="width: 70%;">
+								<ul>
+									<li><h1>一起走过的日子</h1></li>
+									<li>如何面对 曾一起走过的日子，现在剩下我独行如何用心声一一讲你知，从来没人明</li>
+                                    <br/>
+                                    <li>作者：高善照</li>
+								</ul>
+							</div>
+						</div>
+							</li>
+							<li>
+								<div class="ui-grid-a">
+							<div class="ui-block-a" style="width: 30%;">
+								<img src="img/chenghong.jpg">
+							</div>
+							<div class="ui-block-b" style="width: 70%;">
+								<ul>
+									<li><h1>一起走过的日子</h1></li>
+									<li>如何面对 曾一起走过的日子，现在剩下我独行如何用心声一一讲你知，从来没人明</li>
+                                    <br/>
+                                    <li>作者：高善照</li>
+								</ul>
+							</div>
+						</div>
+							</li>
+						</ul>
+					
+				</div>
+			</article>
+			<footer data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+			<ul>
+				<li><a href="#bookshelf"><img src="img/书架.png" /><br/><span>书架</span></a>
+				</li>
+				<li><a href="#home"><img src="img/精选.png" /><br/><span>精选</span></a></li>
+				<li><a href="#library"><img src="img/书库.png" /><br/><span>书库</span></a></li>
+				<li><a href="#mine"><img src="img/mine.png" /><br/><span>我的</span></a></li>
+			</ul>
+			</div>
+			</footer>
+		</div>
+
+
+<!-- 书库 -->
+		<div data-role="page" id="library">
+			<header data-role="header" data-theme="b">
+				<h1>书库</h1>
+				<a href="#" class="ui-btn ui-icon-search ui-btn-icon-notext ui-btn-right ui-corner-all">button</a>
+			</header>
+			<article data-role="content" style="padding: 0;">
+				<div class="firstlist">
+					<ul>
+						<li><a href="">女生</a></li>
+						<li><a href="">男生</a></li>
+						<li><a href="">出版</a></li>
+						<li><a href="">音频</a></li>
+						<li><a href="">漫画</a></li>
+					</ul>
+				</div>
+				<div class="secondlist">
+					<ul>
+						<li>
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><img src="img/chenghong.jpg"></div>
+								<div class="ui-block-b">
+									<div class="atitle">古代言情</div>
+							        <div class="btitle">152,856册</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><img src="img/chenghong.jpg"></div>
+								<div class="ui-block-b">
+									<div class="atitle">古代言情</div>
+							        <div class="btitle">152,856册</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><img src="img/chenghong.jpg"></div>
+								<div class="ui-block-b">
+									<div class="atitle">古代言情</div>
+							        <div class="btitle">152,856册</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><img src="img/chenghong.jpg"></div>
+								<div class="ui-block-b">
+									<div class="atitle">古代言情</div>
+							        <div class="btitle">152,856册</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><img src="img/chenghong.jpg"></div>
+								<div class="ui-block-b">
+									<div class="atitle">古代言情</div>
+							        <div class="btitle">152,856册</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+				
+
+				<div class="secondlist">
+					<ul>
+						<li>
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><img src="img/chenghong.jpg"></div>
+								<div class="ui-block-b">
+									<div class="atitle">古代言情</div>
+							        <div class="btitle">152,856册</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><img src="img/chenghong.jpg"></div>
+								<div class="ui-block-b">
+									<div class="atitle">古代言情</div>
+							        <div class="btitle">152,856册</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><img src="img/chenghong.jpg"></div>
+								<div class="ui-block-b">
+									<div class="atitle">古代言情</div>
+							        <div class="btitle">152,856册</div>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ui-grid-a">
+								<div class="ui-block-a"><img src="img/chenghong.jpg"></div>
+								<div class="ui-block-b">
+									<div class="atitle">古代言情</div>
+							        <div class="btitle">152,856册</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</article>
+			<footer data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+			        <ul>
+				        <li><a href="#bookshelf"><img src="img/书架.png" data-transition="flip" /><br/><span>书架</span></a>
+				        </li>
+				        <li><a href="#home"><img src="img/精选.png" /><br/><span>精选</span></a></li>
+				        <li><a href="#library"><img src="img/书库.png" /><br/><span>书库</span></a></li>
+				        <li><a href="#mine"><img src="img/mine.png" /><br/><span>我的</span></a></li>
+			        </ul>
+			    </div>
+			</footer>
+		</div>
+</body>
+</html>

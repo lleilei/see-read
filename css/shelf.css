@@ -1,0 +1,32 @@
+ul, li ,a{
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.book ul li {
+	float: left;
+}
+.call {
+	background: #359A72;
+	height: 120px;
+}
+.call ul li {
+	color: white;
+	text-align: center;
+	line-height: 38px;
+	font-size: 15px;
+}
+.call ul span {
+	font-size: 48px;
+}
+.list ul li img {
+	width: 90px;
+	height: 130px;
+}
+.list .ui-block-b p {
+	float: right;
+}
+.list ul li {
+	line-height: 25px;
+}

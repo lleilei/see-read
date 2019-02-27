@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<!-- meta使用viewport以确保页面可自由缩放 -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- 引入 jQuery Mobile 样式 -->
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+<!-- 引入 jQuery 库 -->
+<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!-- 引入 jQuery Mobile 库 -->
+<script src="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="css/home.css">
+</head>
+<body>
+	<div data-role="page" id="page1">
+			<header data-role="header" data-theme="b">
+				<input type="text" data-type="search" name="search" id="search" value="" placeholder="搜索内容">
+			</header>
+			<article data-role="content">
+				<div data-role="navbar" class="ui-navbar">
+					<ul class="ui-grid-c" style="text-align: center;">
+						<div class="ui-block-a" >
+							<img src="img/排行.png">
+							<p>排行</p>
+						</div>
+						<div class="ui-block-b">
+							<img src="img/免费.png">
+							<p>免费</p>
+						</div>
+						<div class="ui-block-c">
+							<img src="img/书单.png">
+							<p>书单</p>
+						</div>
+						<div class="ui-block-d">
+							<img src="img/书.png">
+							<p>完本</p>
+						</div>
+					</ul>
+				</div>
+			</article>
+
+			<article data-role="content">
+				<h1>今日精选</h1>
+                    <div data-role="main" class="ui-content">
+                        <ul data-role="listview" class="booklist">
+                            <li>
+                                <a href="#"><img src="img/chenghong.jpg">
+                                	<h2>《橙红年代》</h2>
+                                    <p>作者：哈哈哈哈哈</p></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/chenghong.jpg">
+                                	<h2>《橙红年代》</h2>
+                                    <p>作者：哈哈哈哈哈</p></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/chenghong.jpg">
+                                	<h2>《橙红年代》</h2>
+                                    <p>作者：哈哈哈哈哈</p></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/chenghong.jpg">
+                                	<h2>《橙红年代》</h2>
+                                    <p>作者：哈哈哈哈哈</p></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/chenghong.jpg">
+                                	<h2>《橙红年代》</h2>
+                                    <p>作者：哈哈哈哈哈</p></a>
+                            </li>
+                            <li>
+                                <a href="#"><img src="img/chenghong.jpg">
+                                	<h2>《橙红年代》</h2>
+                                    <p>作者：哈哈哈哈哈</p></a>
+                            </li>
+                        </ul>
+                    </div>
+                
+			</article>
+			<footer data-role="footer" data-position="fixed">
+				<div data-role="navbar">
+			<ul>
+				<li><a href="bookshelf.html"><img src="img/书架.png" /><br/><span>书架</span></a>
+				</li>
+				<li><a href="home.html"><img src="img/精选.png" /><br/><span>精选</span></a></li>
+				<li><a href="library.html"><img src="img/书库.png" /><br/><span>书库</span></a></li>
+				<li><a href="mine.html"><img src="img/mine.png" /><br/><span>我的</span></a></li>
+			</ul>
+			</div>
+			</footer>
+		</div>
+
+
+</body>
+</html>
